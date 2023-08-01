@@ -13,4 +13,4 @@ git clone https://github.com/TeaRex-coder/r3f-boilerplate \
 
 - [x] Move from Yarn to PNPM
 - [x] Typescript + SWC FTW
-- [ ] Perfect Lighthouse Score
+- [x] Perfect Lighthouse Score
