@@ -11,7 +11,6 @@ git clone https://github.com/TeaRex-coder/r3f-boilerplate \
 
 ## To-Do List
 
-- [ ] Convert to NextJS
-- [ ] Move from Yarn to PNPM
-- [ ] Typescript FTW
+- [x] Move from Yarn to PNPM
+- [x] Typescript + SWC FTW
 - [ ] Perfect Lighthouse Score
