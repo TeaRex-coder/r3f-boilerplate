@@ -1,11 +1,11 @@
-import { OrbitControls, Stage } from "@react-three/drei";
-import { Suspense } from "react";
+"use client";
 
-import Cube from "./Cube";
+const { OrbitControls, Cube } = require("@react-three/drei");
+const { Canvas } = require("@react-three/fiber");
 
 const Experience = () => {
   return (
-    <Stage>
+    <Canvas className="canvas1">
       <OrbitControls
         enableZoom={true}
         enableRotate={true}
@@ -19,11 +19,9 @@ const Experience = () => {
         minDistance={1} //max zoom in
         maxDistance={15} //max zoom out
       />
-
-      <Suspense fallback={null}>
-        <Cube />
-      </Suspense>
-    </Stage>
+      <ambientLight intensity={2} />
+      <Cube />
+    </Canvas>
   );
 };
 
